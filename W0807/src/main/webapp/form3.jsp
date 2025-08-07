@@ -9,11 +9,15 @@
 <body>
 	<h2>form</h2> <!-- 아이디 -aaa, 패스워드=111
 					submit: w0807/ FormPage post전송-->
-	<form action="/W0807/FormPage" method="post">
-		<label>아이디</label>
-		<input type="text" name="id"><br>
-		<label>패스워드</label>
-		<input type="text" name="pw"><br>
+	<form action="/W0807/FormPage2" method="post">
+		<label>이름</label>
+		<input type="text" name="name"><br>
+		<label>국어</label>
+		<input type="text" name="kor"><br>
+		<label>영어</label>
+		<input type="text" name="eng"><br>
+		<label>수학</label>
+		<input type="text" name="math"><br>
 		<input type="submit" value="전송">
 	</form>
 
